@@ -27,6 +27,7 @@ def generate_not_found_response():
 
 	return response
 
+
 def generate_ok_response(request_data, request_mime_type):
 	'''
 	Generate an HTTP response with a 200 response status.
