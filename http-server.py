@@ -89,7 +89,7 @@ def parse_request_line(request):
 
 def run_server(host, port):
 	'''
-	Accept incoming connections, handle HTTP requests, and send an HTTP responses.
+	Accept incoming connections, handle HTTP requests, and send HTTP responses.
 	'''
 
 	# Create a TCP socket and listen for incoming connections.
